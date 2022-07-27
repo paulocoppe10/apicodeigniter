@@ -1,0 +1,2173 @@
+Microsoft Windows [versão 10.0.19043.1706]
+(c) Microsoft Corporation. Todos os direitos reservados.
+
+C:\Users\Aluno>cd ../../wamp64/www/api
+
+C:\wamp64\www\api>code .
+
+C:\wamp64\www\api>git init
+Initialized empty Git repository in C:/wamp64/www/api/.git/
+
+C:\wamp64\www\api>git remote add origin https://github.com/paulocoppe10/apicodeigniter.git
+
+C:\wamp64\www\api>git add .
+warning: LF will be replaced by CRLF in CHANGELOG.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LICENSE.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in SECURITY.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/.htaccess.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Common.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Config/App.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Config/Autoload.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Config/Boot/development.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Config/Boot/production.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Config/Boot/testing.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Config/CURLRequest.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Config/Cache.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Config/Constants.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Config/ContentSecurityPolicy.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Config/Cookie.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Config/Database.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Config/DocTypes.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Config/Email.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Config/Encryption.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Config/Events.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Config/Exceptions.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Config/Feature.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Config/Filters.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Config/ForeignCharacters.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Config/Format.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Config/Generators.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Config/Honeypot.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Config/Images.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Config/Kint.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Config/Logger.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Config/Migrations.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Config/Mimes.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Config/Modules.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Config/Pager.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Config/Paths.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Config/Publisher.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Config/Routes.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Config/Security.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Config/Services.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Config/Toolbar.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Config/UserAgents.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Config/Validation.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Config/View.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Controllers/BaseController.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Controllers/Home.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Language/en/Validation.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Views/errors/cli/error_404.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Views/errors/cli/error_exception.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Views/errors/cli/production.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Views/errors/html/debug.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Views/errors/html/debug.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Views/errors/html/error_404.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Views/errors/html/error_exception.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Views/errors/html/production.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Views/welcome_message.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in composer.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in deptrac.yaml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in env.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in public/.htaccess.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in public/index.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in public/robots.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in spark.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/.htaccess.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/API/ResponseTrait.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Autoloader/Autoloader.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Autoloader/FileLocator.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/BaseModel.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/CLI/BaseCommand.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/CLI/CLI.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/CLI/CommandRunner.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/CLI/Commands.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/CLI/Console.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/CLI/Exceptions/CLIException.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/CLI/GeneratorTrait.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Cache/CacheFactory.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Cache/CacheInterface.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Cache/Exceptions/CacheException.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Cache/Exceptions/ExceptionInterface.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Cache/Handlers/BaseHandler.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Cache/Handlers/DummyHandler.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Cache/Handlers/FileHandler.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Cache/Handlers/MemcachedHandler.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Cache/Handlers/PredisHandler.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Cache/Handlers/RedisHandler.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Cache/Handlers/WincacheHandler.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/CodeIgniter.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Commands/Cache/ClearCache.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Commands/Cache/InfoCache.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Commands/Database/CreateDatabase.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Commands/Database/Migrate.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Commands/Database/MigrateRefresh.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Commands/Database/MigrateRollback.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Commands/Database/MigrateStatus.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Commands/Database/Seed.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Commands/Database/ShowTableInfo.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Commands/Encryption/GenerateKey.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Commands/Generators/CommandGenerator.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Commands/Generators/ConfigGenerator.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Commands/Generators/ControllerGenerator.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Commands/Generators/EntityGenerator.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Commands/Generators/FilterGenerator.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Commands/Generators/MigrateCreate.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Commands/Generators/MigrationGenerator.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Commands/Generators/ModelGenerator.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Commands/Generators/ScaffoldGenerator.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Commands/Generators/SeederGenerator.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Commands/Generators/SessionMigrationGenerator.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Commands/Generators/ValidationGenerator.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Commands/Generators/Views/command.tpl.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Commands/Generators/Views/config.tpl.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Commands/Generators/Views/controller.tpl.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Commands/Generators/Views/entity.tpl.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Commands/Generators/Views/filter.tpl.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Commands/Generators/Views/migration.tpl.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Commands/Generators/Views/model.tpl.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Commands/Generators/Views/seeder.tpl.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Commands/Generators/Views/validation.tpl.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Commands/Help.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Commands/Housekeeping/ClearDebugbar.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Commands/Housekeeping/ClearLogs.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Commands/ListCommands.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Commands/Server/Serve.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Commands/Server/rewrite.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Commands/Utilities/Environment.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Commands/Utilities/Namespaces.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Commands/Utilities/Publish.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Commands/Utilities/Routes.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Commands/Utilities/Routes/AutoRouteCollector.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Commands/Utilities/Routes/AutoRouterImproved/AutoRouteCollector.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Commands/Utilities/Routes/AutoRouterImproved/ControllerMethodReader.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Commands/Utilities/Routes/ControllerFinder.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Commands/Utilities/Routes/ControllerMethodReader.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Commands/Utilities/Routes/FilterCollector.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Commands/Utilities/Routes/FilterFinder.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Commands/Utilities/Routes/SampleURIGenerator.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Common.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ComposerScripts.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Config/AutoloadConfig.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Config/BaseConfig.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Config/BaseService.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Config/Config.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Config/DotEnv.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Config/Factories.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Config/Factory.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Config/ForeignCharacters.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Config/Publisher.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Config/Routes.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Config/Services.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Config/View.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Controller.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Cookie/CloneableCookieInterface.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Cookie/Cookie.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Cookie/CookieInterface.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Cookie/CookieStore.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Cookie/Exceptions/CookieException.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Database/BaseBuilder.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Database/BaseConnection.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Database/BasePreparedQuery.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Database/BaseResult.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Database/BaseUtils.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Database/Config.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Database/ConnectionInterface.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Database/Database.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Database/Exceptions/DataException.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Database/Exceptions/DatabaseException.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Database/Exceptions/ExceptionInterface.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Database/Forge.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Database/Migration.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Database/MigrationRunner.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Database/ModelFactory.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Database/MySQLi/Builder.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Database/MySQLi/Connection.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Database/MySQLi/Forge.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Database/MySQLi/PreparedQuery.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Database/MySQLi/Result.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Database/MySQLi/Utils.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Database/OCI8/Builder.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Database/OCI8/Connection.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Database/OCI8/Forge.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Database/OCI8/PreparedQuery.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Database/OCI8/Result.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Database/OCI8/Utils.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Database/Postgre/Builder.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Database/Postgre/Connection.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Database/Postgre/Forge.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Database/Postgre/PreparedQuery.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Database/Postgre/Result.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Database/Postgre/Utils.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Database/PreparedQueryInterface.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Database/Query.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Database/QueryInterface.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Database/RawSql.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Database/ResultInterface.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Database/SQLSRV/Builder.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Database/SQLSRV/Connection.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Database/SQLSRV/Forge.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Database/SQLSRV/PreparedQuery.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Database/SQLSRV/Result.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Database/SQLSRV/Utils.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Database/SQLite3/Builder.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Database/SQLite3/Connection.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Database/SQLite3/Forge.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Database/SQLite3/PreparedQuery.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Database/SQLite3/Result.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Database/SQLite3/Table.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Database/SQLite3/Utils.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Database/Seeder.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Debug/Exceptions.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Debug/Iterator.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Debug/Timer.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Debug/Toolbar.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Debug/Toolbar/Collectors/BaseCollector.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Debug/Toolbar/Collectors/Config.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Debug/Toolbar/Collectors/Database.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Debug/Toolbar/Collectors/Events.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Debug/Toolbar/Collectors/Files.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Debug/Toolbar/Collectors/History.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Debug/Toolbar/Collectors/Logs.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Debug/Toolbar/Collectors/Routes.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Debug/Toolbar/Collectors/Timers.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Debug/Toolbar/Collectors/Views.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Debug/Toolbar/Views/_config.tpl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Debug/Toolbar/Views/_database.tpl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Debug/Toolbar/Views/_events.tpl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Debug/Toolbar/Views/_files.tpl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Debug/Toolbar/Views/_history.tpl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Debug/Toolbar/Views/_logs.tpl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Debug/Toolbar/Views/_routes.tpl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Debug/Toolbar/Views/toolbar.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Debug/Toolbar/Views/toolbar.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Debug/Toolbar/Views/toolbar.tpl.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Debug/Toolbar/Views/toolbarloader.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Email/Email.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Encryption/EncrypterInterface.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Encryption/Encryption.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Encryption/Exceptions/EncryptionException.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Encryption/Handlers/BaseHandler.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Encryption/Handlers/OpenSSLHandler.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Encryption/Handlers/SodiumHandler.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Entity.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Entity/Cast/ArrayCast.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Entity/Cast/BaseCast.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Entity/Cast/BooleanCast.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Entity/Cast/CSVCast.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Entity/Cast/CastInterface.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Entity/Cast/DatetimeCast.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Entity/Cast/FloatCast.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Entity/Cast/IntegerCast.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Entity/Cast/JsonCast.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Entity/Cast/ObjectCast.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Entity/Cast/StringCast.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Entity/Cast/TimestampCast.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Entity/Cast/URICast.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Entity/Entity.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Entity/Exceptions/CastException.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Events/Events.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Exceptions/AlertError.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Exceptions/CastException.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Exceptions/ConfigException.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Exceptions/CriticalError.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Exceptions/DebugTraceableTrait.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Exceptions/DownloadException.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Exceptions/EmergencyError.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Exceptions/ExceptionInterface.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Exceptions/FrameworkException.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Exceptions/ModelException.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Exceptions/PageNotFoundException.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Exceptions/TestException.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Files/Exceptions/FileException.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Files/Exceptions/FileNotFoundException.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Files/File.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Files/FileCollection.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Filters/CSRF.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Filters/DebugToolbar.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Filters/Exceptions/FilterException.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Filters/FilterInterface.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Filters/Filters.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Filters/Honeypot.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Filters/InvalidChars.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Filters/SecureHeaders.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Format/Exceptions/FormatException.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Format/Format.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Format/FormatterInterface.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Format/JSONFormatter.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Format/XMLFormatter.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/HTTP/CLIRequest.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/HTTP/CURLRequest.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/HTTP/ContentSecurityPolicy.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/HTTP/DownloadResponse.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/HTTP/Exceptions/HTTPException.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/HTTP/Files/FileCollection.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/HTTP/Files/UploadedFile.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/HTTP/Files/UploadedFileInterface.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/HTTP/Header.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/HTTP/IncomingRequest.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/HTTP/Message.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/HTTP/MessageInterface.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/HTTP/MessageTrait.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/HTTP/Negotiate.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/HTTP/RedirectResponse.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/HTTP/Request.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/HTTP/RequestInterface.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/HTTP/RequestTrait.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/HTTP/Response.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/HTTP/ResponseInterface.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/HTTP/ResponseTrait.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/HTTP/URI.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/HTTP/UserAgent.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Helpers/array_helper.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Helpers/cookie_helper.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Helpers/date_helper.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Helpers/filesystem_helper.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Helpers/form_helper.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Helpers/html_helper.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Helpers/inflector_helper.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Helpers/number_helper.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Helpers/security_helper.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Helpers/test_helper.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Helpers/text_helper.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Helpers/url_helper.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Helpers/xml_helper.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Honeypot/Exceptions/HoneypotException.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Honeypot/Honeypot.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/I18n/Exceptions/I18nException.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/I18n/Time.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/I18n/TimeDifference.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Images/Exceptions/ImageException.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Images/Handlers/BaseHandler.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Images/Handlers/GDHandler.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Images/Handlers/ImageMagickHandler.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Images/Image.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Images/ImageHandlerInterface.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Language/Language.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Language/en/CLI.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Language/en/Cache.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Language/en/Cast.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Language/en/Cookie.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Language/en/Core.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Language/en/Database.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Language/en/Email.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Language/en/Encryption.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Language/en/Fabricator.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Language/en/Files.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Language/en/Filters.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Language/en/Format.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Language/en/HTTP.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Language/en/Images.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Language/en/Log.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Language/en/Migrations.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Language/en/Number.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Language/en/Pager.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Language/en/Publisher.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Language/en/RESTful.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Language/en/Router.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Language/en/Security.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Language/en/Session.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Language/en/Test.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Language/en/Time.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Language/en/Validation.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Language/en/View.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Log/Exceptions/LogException.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Log/Handlers/BaseHandler.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Log/Handlers/ChromeLoggerHandler.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Log/Handlers/ErrorlogHandler.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Log/Handlers/FileHandler.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Log/Handlers/HandlerInterface.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Log/Logger.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Model.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Modules/Modules.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Pager/Exceptions/PagerException.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Pager/Pager.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Pager/PagerInterface.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Pager/PagerRenderer.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Pager/Views/default_full.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Pager/Views/default_head.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Pager/Views/default_simple.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Publisher/Exceptions/PublisherException.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Publisher/Publisher.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/RESTful/BaseResource.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/RESTful/ResourceController.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/RESTful/ResourcePresenter.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Router/AutoRouter.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Router/AutoRouterImproved.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Router/AutoRouterInterface.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Router/Exceptions/RedirectException.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Router/Exceptions/RouterException.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Router/RouteCollection.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Router/RouteCollectionInterface.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Router/Router.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Router/RouterInterface.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Security/Exceptions/SecurityException.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Security/Security.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Security/SecurityInterface.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Session/Exceptions/SessionException.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Session/Handlers/ArrayHandler.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Session/Handlers/BaseHandler.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Session/Handlers/Database/MySQLiHandler.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Session/Handlers/Database/PostgreHandler.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Session/Handlers/DatabaseHandler.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Session/Handlers/FileHandler.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Session/Handlers/MemcachedHandler.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Session/Handlers/RedisHandler.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Session/Session.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Session/SessionInterface.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Test/CIDatabaseTestCase.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Test/CIUnitTestCase.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Test/ConfigFromArrayTrait.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Test/Constraints/SeeInDatabase.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Test/ControllerResponse.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Test/ControllerTestTrait.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Test/ControllerTester.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Test/DOMParser.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Test/DatabaseTestTrait.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Test/Fabricator.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Test/FeatureResponse.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Test/FeatureTestCase.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Test/FeatureTestTrait.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Test/FilterTestTrait.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Test/Filters/CITestStreamFilter.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Test/Interfaces/FabricatorModel.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Test/Mock/MockAppConfig.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Test/Mock/MockAutoload.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Test/Mock/MockBuilder.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Test/Mock/MockCLIConfig.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Test/Mock/MockCURLRequest.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Test/Mock/MockCache.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Test/Mock/MockCodeIgniter.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Test/Mock/MockCommon.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Test/Mock/MockConnection.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Test/Mock/MockEmail.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Test/Mock/MockEvents.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Test/Mock/MockFileLogger.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Test/Mock/MockIncomingRequest.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Test/Mock/MockLanguage.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Test/Mock/MockLogger.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Test/Mock/MockQuery.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Test/Mock/MockResourceController.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Test/Mock/MockResourcePresenter.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Test/Mock/MockResponse.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Test/Mock/MockResult.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Test/Mock/MockSecurity.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Test/Mock/MockSecurityConfig.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Test/Mock/MockServices.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Test/Mock/MockSession.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Test/Mock/MockTable.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Test/ReflectionHelper.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Test/TestLogger.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Test/TestResponse.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Test/bootstrap.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Escaper/Escaper.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Escaper/Exception/ExceptionInterface.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Escaper/Exception/InvalidArgumentException.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Escaper/Exception/RuntimeException.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Escaper/LICENSE.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/CallFinder.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Kint.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/LICENSE.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Parser/ArrayLimitPlugin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Parser/ArrayObjectPlugin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Parser/Base64Plugin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Parser/BinaryPlugin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Parser/BlacklistPlugin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Parser/ClassMethodsPlugin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Parser/ClassStaticsPlugin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Parser/ClosurePlugin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Parser/ColorPlugin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Parser/DOMDocumentPlugin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Parser/DateTimePlugin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Parser/FsPathPlugin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Parser/IteratorPlugin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Parser/JsonPlugin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Parser/MicrotimePlugin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Parser/MysqliPlugin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Parser/Parser.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Parser/Plugin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Parser/ProxyPlugin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Parser/SerializePlugin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Parser/SimpleXMLElementPlugin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Parser/SplFileInfoPlugin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Parser/SplObjectStoragePlugin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Parser/StreamPlugin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Parser/TablePlugin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Parser/ThrowablePlugin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Parser/TimestampPlugin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Parser/ToStringPlugin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Parser/TracePlugin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Parser/XmlPlugin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Renderer/CliRenderer.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Renderer/PlainRenderer.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Renderer/Renderer.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Renderer/Rich/ArrayLimitPlugin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Renderer/Rich/BinaryPlugin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Renderer/Rich/BlacklistPlugin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Renderer/Rich/CallablePlugin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Renderer/Rich/ClosurePlugin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Renderer/Rich/ColorPlugin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Renderer/Rich/DepthLimitPlugin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Renderer/Rich/DocstringPlugin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Renderer/Rich/MicrotimePlugin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Renderer/Rich/Plugin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Renderer/Rich/PluginInterface.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Renderer/Rich/RecursionPlugin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Renderer/Rich/SimpleXMLElementPlugin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Renderer/Rich/SourcePlugin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Renderer/Rich/TabPluginInterface.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Renderer/Rich/TablePlugin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Renderer/Rich/TimestampPlugin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Renderer/Rich/TraceFramePlugin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Renderer/Rich/ValuePluginInterface.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Renderer/RichRenderer.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Renderer/Text/ArrayLimitPlugin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Renderer/Text/BlacklistPlugin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Renderer/Text/DepthLimitPlugin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Renderer/Text/MicrotimePlugin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Renderer/Text/Plugin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Renderer/Text/RecursionPlugin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Renderer/Text/TracePlugin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Renderer/TextRenderer.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Utils.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Zval/BlobValue.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Zval/ClosureValue.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Zval/DateTimeValue.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Zval/InstanceValue.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Zval/MethodValue.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Zval/ParameterValue.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Zval/Representation/ColorRepresentation.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Zval/Representation/DocstringRepresentation.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Zval/Representation/MicrotimeRepresentation.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Zval/Representation/Representation.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Zval/Representation/SourceRepresentation.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Zval/Representation/SplFileInfoRepresentation.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Zval/ResourceValue.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Zval/SimpleXMLElementValue.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Zval/StreamValue.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Zval/ThrowableValue.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Zval/TraceFrameValue.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Zval/TraceValue.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/Zval/Value.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/init.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/init_helpers.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/resources/compiled/aante-light.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/resources/compiled/microtime.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/resources/compiled/original.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/resources/compiled/plain.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/resources/compiled/plain.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/resources/compiled/rich.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/resources/compiled/shared.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/resources/compiled/solarized-dark.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/Kint/resources/compiled/solarized.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/PSR/Log/AbstractLogger.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/PSR/Log/InvalidArgumentException.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/PSR/Log/LICENSE.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/PSR/Log/LogLevel.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/PSR/Log/LoggerAwareInterface.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/PSR/Log/LoggerAwareTrait.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/PSR/Log/LoggerInterface.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/PSR/Log/LoggerTrait.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/ThirdParty/PSR/Log/NullLogger.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Throttle/Throttler.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Throttle/ThrottlerInterface.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Typography/Typography.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Validation/CreditCardRules.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Validation/Exceptions/ValidationException.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Validation/FileRules.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Validation/FormatRules.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Validation/Rules.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Validation/StrictRules/CreditCardRules.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Validation/StrictRules/FileRules.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Validation/StrictRules/FormatRules.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Validation/StrictRules/Rules.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Validation/Validation.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Validation/ValidationInterface.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Validation/Views/list.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/Validation/Views/single.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/View/Cell.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/View/Exceptions/ViewException.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/View/Filters.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/View/Parser.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/View/Plugins.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/View/RendererInterface.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/View/Table.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/View/View.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/View/ViewDecoratorInterface.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/View/ViewDecoratorTrait.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/bootstrap.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in system/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/.htaccess.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Autoloader/FatalLocator.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Autoloader/UnnamespacedClass.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Autoloader/functions.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Cache/RestrictiveHandler.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Commands/AbstractInfo.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Commands/AppInfo.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Commands/Foobar.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Commands/InvalidCommand.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Commands/LanguageCommand.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Commands/ParamsReveal.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Commands/Unsuffixable.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Config/BadRegistrar.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Config/Filters.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Config/Registrar.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Config/Routes.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Config/Services.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Config/TestRegistrar.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Controllers/Hello.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Controllers/Newautorouting.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Controllers/Popcorn.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Controllers/Remap.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Database/Migrations/20160428212500_Create_test_tables.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Database/Seeds/AnotherSeeder.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Database/Seeds/CITestSeeder.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Entity/Cast/CastBase64.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Entity/Cast/CastPassParameters.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Entity/Cast/NotExtendsBaseCast.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Entity/User.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Files/able/apple.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Files/able/fig_3.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Files/able/prune_ripe.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Files/baker/banana.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Filters/Customfilter.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/HTTP/Files/CookiesHolder.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Helpers/baguette_helper.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Language/SecondMockLanguage.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Language/ab-CD/Allin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Language/ab/Allin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Language/en-ZZ/More.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Language/en/Allin.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Language/en/Core.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Language/en/Foo.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Language/en/Language.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Language/en/More.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Language/en/Nested.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Language/ru/Language.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Log/Handlers/TestHandler.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/MigrationTestMigrations/Database/Migrations/2018-01-24-102300_Another_migration.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/MigrationTestMigrations/Database/Migrations/2018-01-24-102301_Some_migration.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/MigrationTestMigrations/Database/Migrations/2018-01-24-102302_Another_migration.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Models/EntityModel.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Models/EventModel.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Models/FabricatorModel.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Models/GetCompiledModelTest.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Models/JobModel.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Models/SecondaryModel.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Models/SimpleEntity.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Models/StringifyPkeyModel.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Models/UserModel.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Models/UserObjModel.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Models/ValidErrorsModel.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Models/ValidModel.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Models/WithoutAutoIncrementModel.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Publishers/TestPublisher.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/RESTful/Worker.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/RESTful/Worker2.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/SomeEntity.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Validation/TestRules.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/View/BadDecorator.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/View/SampleClass.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/View/SampleClassWithInitController.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/View/WorldDecorator.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Widgets/NopeWidget.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Widgets/OtherWidget.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/_support/Widgets/SomeWidget.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in writable/.htaccess.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in writable/cache/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in writable/logs/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in writable/session/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in writable/uploads/index.html.
+The file will have its original line endings in your working directory
+
+C:\wamp64\www\api>git commit -m "inicio do projeto"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Aluno@PC_14.(none)')
+
+C:\wamp64\www\api>git config --global user.email "paulocoppe10@gmail.com"
+
+C:\wamp64\www\api>git config --global user.name "paulocoppe10"
+
+C:\wamp64\www\api>git commit -m "inicio do projeto"
+[master (root-commit) a6e3bb2] inicio do projeto
+ 712 files changed, 109432 insertions(+)
+ create mode 100644 CHANGELOG.md
+ create mode 100644 LICENSE
+ create mode 100644 README.md
+ create mode 100644 SECURITY.md
+ create mode 100644 app/.htaccess
+ create mode 100644 app/Common.php
+ create mode 100644 app/Config/App.php
+ create mode 100644 app/Config/Autoload.php
+ create mode 100644 app/Config/Boot/development.php
+ create mode 100644 app/Config/Boot/production.php
+ create mode 100644 app/Config/Boot/testing.php
+ create mode 100644 app/Config/CURLRequest.php
+ create mode 100644 app/Config/Cache.php
+ create mode 100644 app/Config/Constants.php
+ create mode 100644 app/Config/ContentSecurityPolicy.php
+ create mode 100644 app/Config/Cookie.php
+ create mode 100644 app/Config/Database.php
+ create mode 100644 app/Config/DocTypes.php
+ create mode 100644 app/Config/Email.php
+ create mode 100644 app/Config/Encryption.php
+ create mode 100644 app/Config/Events.php
+ create mode 100644 app/Config/Exceptions.php
+ create mode 100644 app/Config/Feature.php
+ create mode 100644 app/Config/Filters.php
+ create mode 100644 app/Config/ForeignCharacters.php
+ create mode 100644 app/Config/Format.php
+ create mode 100644 app/Config/Generators.php
+ create mode 100644 app/Config/Honeypot.php
+ create mode 100644 app/Config/Images.php
+ create mode 100644 app/Config/Kint.php
+ create mode 100644 app/Config/Logger.php
+ create mode 100644 app/Config/Migrations.php
+ create mode 100644 app/Config/Mimes.php
+ create mode 100644 app/Config/Modules.php
+ create mode 100644 app/Config/Pager.php
+ create mode 100644 app/Config/Paths.php
+ create mode 100644 app/Config/Publisher.php
+ create mode 100644 app/Config/Routes.php
+ create mode 100644 app/Config/Security.php
+ create mode 100644 app/Config/Services.php
+ create mode 100644 app/Config/Toolbar.php
+ create mode 100644 app/Config/UserAgents.php
+ create mode 100644 app/Config/Validation.php
+ create mode 100644 app/Config/View.php
+ create mode 100644 app/Controllers/BaseController.php
+ create mode 100644 app/Controllers/Home.php
+ create mode 100644 app/Database/Migrations/.gitkeep
+ create mode 100644 app/Database/Seeds/.gitkeep
+ create mode 100644 app/Filters/.gitkeep
+ create mode 100644 app/Helpers/.gitkeep
+ create mode 100644 app/Language/.gitkeep
+ create mode 100644 app/Language/en/Validation.php
+ create mode 100644 app/Libraries/.gitkeep
+ create mode 100644 app/Models/.gitkeep
+ create mode 100644 app/ThirdParty/.gitkeep
+ create mode 100644 app/Views/errors/cli/error_404.php
+ create mode 100644 app/Views/errors/cli/error_exception.php
+ create mode 100644 app/Views/errors/cli/production.php
+ create mode 100644 app/Views/errors/html/debug.css
+ create mode 100644 app/Views/errors/html/debug.js
+ create mode 100644 app/Views/errors/html/error_404.php
+ create mode 100644 app/Views/errors/html/error_exception.php
+ create mode 100644 app/Views/errors/html/production.php
+ create mode 100644 app/Views/welcome_message.php
+ create mode 100644 app/index.html
+ create mode 100644 composer.json
+ create mode 100644 deptrac.yaml
+ create mode 100644 env
+ create mode 100644 public/.htaccess
+ create mode 100644 public/favicon.ico
+ create mode 100644 public/index.php
+ create mode 100644 public/robots.txt
+ create mode 100644 spark
+ create mode 100644 system/.htaccess
+ create mode 100644 system/API/ResponseTrait.php
+ create mode 100644 system/Autoloader/Autoloader.php
+ create mode 100644 system/Autoloader/FileLocator.php
+ create mode 100644 system/BaseModel.php
+ create mode 100644 system/CLI/BaseCommand.php
+ create mode 100644 system/CLI/CLI.php
+ create mode 100644 system/CLI/CommandRunner.php
+ create mode 100644 system/CLI/Commands.php
+ create mode 100644 system/CLI/Console.php
+ create mode 100644 system/CLI/Exceptions/CLIException.php
+ create mode 100644 system/CLI/GeneratorTrait.php
+ create mode 100644 system/Cache/CacheFactory.php
+ create mode 100644 system/Cache/CacheInterface.php
+ create mode 100644 system/Cache/Exceptions/CacheException.php
+ create mode 100644 system/Cache/Exceptions/ExceptionInterface.php
+ create mode 100644 system/Cache/Handlers/BaseHandler.php
+ create mode 100644 system/Cache/Handlers/DummyHandler.php
+ create mode 100644 system/Cache/Handlers/FileHandler.php
+ create mode 100644 system/Cache/Handlers/MemcachedHandler.php
+ create mode 100644 system/Cache/Handlers/PredisHandler.php
+ create mode 100644 system/Cache/Handlers/RedisHandler.php
+ create mode 100644 system/Cache/Handlers/WincacheHandler.php
+ create mode 100644 system/CodeIgniter.php
+ create mode 100644 system/Commands/Cache/ClearCache.php
+ create mode 100644 system/Commands/Cache/InfoCache.php
+ create mode 100644 system/Commands/Database/CreateDatabase.php
+ create mode 100644 system/Commands/Database/Migrate.php
+ create mode 100644 system/Commands/Database/MigrateRefresh.php
+ create mode 100644 system/Commands/Database/MigrateRollback.php
+ create mode 100644 system/Commands/Database/MigrateStatus.php
+ create mode 100644 system/Commands/Database/Seed.php
+ create mode 100644 system/Commands/Database/ShowTableInfo.php
+ create mode 100644 system/Commands/Encryption/GenerateKey.php
+ create mode 100644 system/Commands/Generators/CommandGenerator.php
+ create mode 100644 system/Commands/Generators/ConfigGenerator.php
+ create mode 100644 system/Commands/Generators/ControllerGenerator.php
+ create mode 100644 system/Commands/Generators/EntityGenerator.php
+ create mode 100644 system/Commands/Generators/FilterGenerator.php
+ create mode 100644 system/Commands/Generators/MigrateCreate.php
+ create mode 100644 system/Commands/Generators/MigrationGenerator.php
+ create mode 100644 system/Commands/Generators/ModelGenerator.php
+ create mode 100644 system/Commands/Generators/ScaffoldGenerator.php
+ create mode 100644 system/Commands/Generators/SeederGenerator.php
+ create mode 100644 system/Commands/Generators/SessionMigrationGenerator.php
+ create mode 100644 system/Commands/Generators/ValidationGenerator.php
+ create mode 100644 system/Commands/Generators/Views/command.tpl.php
+ create mode 100644 system/Commands/Generators/Views/config.tpl.php
+ create mode 100644 system/Commands/Generators/Views/controller.tpl.php
+ create mode 100644 system/Commands/Generators/Views/entity.tpl.php
+ create mode 100644 system/Commands/Generators/Views/filter.tpl.php
+ create mode 100644 system/Commands/Generators/Views/migration.tpl.php
+ create mode 100644 system/Commands/Generators/Views/model.tpl.php
+ create mode 100644 system/Commands/Generators/Views/seeder.tpl.php
+ create mode 100644 system/Commands/Generators/Views/validation.tpl.php
+ create mode 100644 system/Commands/Help.php
+ create mode 100644 system/Commands/Housekeeping/ClearDebugbar.php
+ create mode 100644 system/Commands/Housekeeping/ClearLogs.php
+ create mode 100644 system/Commands/ListCommands.php
+ create mode 100644 system/Commands/Server/Serve.php
+ create mode 100644 system/Commands/Server/rewrite.php
+ create mode 100644 system/Commands/Utilities/Environment.php
+ create mode 100644 system/Commands/Utilities/Namespaces.php
+ create mode 100644 system/Commands/Utilities/Publish.php
+ create mode 100644 system/Commands/Utilities/Routes.php
+ create mode 100644 system/Commands/Utilities/Routes/AutoRouteCollector.php
+ create mode 100644 system/Commands/Utilities/Routes/AutoRouterImproved/AutoRouteCollector.php
+ create mode 100644 system/Commands/Utilities/Routes/AutoRouterImproved/ControllerMethodReader.php
+ create mode 100644 system/Commands/Utilities/Routes/ControllerFinder.php
+ create mode 100644 system/Commands/Utilities/Routes/ControllerMethodReader.php
+ create mode 100644 system/Commands/Utilities/Routes/FilterCollector.php
+ create mode 100644 system/Commands/Utilities/Routes/FilterFinder.php
+ create mode 100644 system/Commands/Utilities/Routes/SampleURIGenerator.php
+ create mode 100644 system/Common.php
+ create mode 100644 system/ComposerScripts.php
+ create mode 100644 system/Config/AutoloadConfig.php
+ create mode 100644 system/Config/BaseConfig.php
+ create mode 100644 system/Config/BaseService.php
+ create mode 100644 system/Config/Config.php
+ create mode 100644 system/Config/DotEnv.php
+ create mode 100644 system/Config/Factories.php
+ create mode 100644 system/Config/Factory.php
+ create mode 100644 system/Config/ForeignCharacters.php
+ create mode 100644 system/Config/Publisher.php
+ create mode 100644 system/Config/Routes.php
+ create mode 100644 system/Config/Services.php
+ create mode 100644 system/Config/View.php
+ create mode 100644 system/Controller.php
+ create mode 100644 system/Cookie/CloneableCookieInterface.php
+ create mode 100644 system/Cookie/Cookie.php
+ create mode 100644 system/Cookie/CookieInterface.php
+ create mode 100644 system/Cookie/CookieStore.php
+ create mode 100644 system/Cookie/Exceptions/CookieException.php
+ create mode 100644 system/Database/BaseBuilder.php
+ create mode 100644 system/Database/BaseConnection.php
+ create mode 100644 system/Database/BasePreparedQuery.php
+ create mode 100644 system/Database/BaseResult.php
+ create mode 100644 system/Database/BaseUtils.php
+ create mode 100644 system/Database/Config.php
+ create mode 100644 system/Database/ConnectionInterface.php
+ create mode 100644 system/Database/Database.php
+ create mode 100644 system/Database/Exceptions/DataException.php
+ create mode 100644 system/Database/Exceptions/DatabaseException.php
+ create mode 100644 system/Database/Exceptions/ExceptionInterface.php
+ create mode 100644 system/Database/Forge.php
+ create mode 100644 system/Database/Migration.php
+ create mode 100644 system/Database/MigrationRunner.php
+ create mode 100644 system/Database/ModelFactory.php
+ create mode 100644 system/Database/MySQLi/Builder.php
+ create mode 100644 system/Database/MySQLi/Connection.php
+ create mode 100644 system/Database/MySQLi/Forge.php
+ create mode 100644 system/Database/MySQLi/PreparedQuery.php
+ create mode 100644 system/Database/MySQLi/Result.php
+ create mode 100644 system/Database/MySQLi/Utils.php
+ create mode 100644 system/Database/OCI8/Builder.php
+ create mode 100644 system/Database/OCI8/Connection.php
+ create mode 100644 system/Database/OCI8/Forge.php
+ create mode 100644 system/Database/OCI8/PreparedQuery.php
+ create mode 100644 system/Database/OCI8/Result.php
+ create mode 100644 system/Database/OCI8/Utils.php
+ create mode 100644 system/Database/Postgre/Builder.php
+ create mode 100644 system/Database/Postgre/Connection.php
+ create mode 100644 system/Database/Postgre/Forge.php
+ create mode 100644 system/Database/Postgre/PreparedQuery.php
+ create mode 100644 system/Database/Postgre/Result.php
+ create mode 100644 system/Database/Postgre/Utils.php
+ create mode 100644 system/Database/PreparedQueryInterface.php
+ create mode 100644 system/Database/Query.php
+ create mode 100644 system/Database/QueryInterface.php
+ create mode 100644 system/Database/RawSql.php
+ create mode 100644 system/Database/ResultInterface.php
+ create mode 100644 system/Database/SQLSRV/Builder.php
+ create mode 100644 system/Database/SQLSRV/Connection.php
+ create mode 100644 system/Database/SQLSRV/Forge.php
+ create mode 100644 system/Database/SQLSRV/PreparedQuery.php
+ create mode 100644 system/Database/SQLSRV/Result.php
+ create mode 100644 system/Database/SQLSRV/Utils.php
+ create mode 100644 system/Database/SQLite3/Builder.php
+ create mode 100644 system/Database/SQLite3/Connection.php
+ create mode 100644 system/Database/SQLite3/Forge.php
+ create mode 100644 system/Database/SQLite3/PreparedQuery.php
+ create mode 100644 system/Database/SQLite3/Result.php
+ create mode 100644 system/Database/SQLite3/Table.php
+ create mode 100644 system/Database/SQLite3/Utils.php
+ create mode 100644 system/Database/Seeder.php
+ create mode 100644 system/Debug/Exceptions.php
+ create mode 100644 system/Debug/Iterator.php
+ create mode 100644 system/Debug/Timer.php
+ create mode 100644 system/Debug/Toolbar.php
+ create mode 100644 system/Debug/Toolbar/Collectors/BaseCollector.php
+ create mode 100644 system/Debug/Toolbar/Collectors/Config.php
+ create mode 100644 system/Debug/Toolbar/Collectors/Database.php
+ create mode 100644 system/Debug/Toolbar/Collectors/Events.php
+ create mode 100644 system/Debug/Toolbar/Collectors/Files.php
+ create mode 100644 system/Debug/Toolbar/Collectors/History.php
+ create mode 100644 system/Debug/Toolbar/Collectors/Logs.php
+ create mode 100644 system/Debug/Toolbar/Collectors/Routes.php
+ create mode 100644 system/Debug/Toolbar/Collectors/Timers.php
+ create mode 100644 system/Debug/Toolbar/Collectors/Views.php
+ create mode 100644 system/Debug/Toolbar/Views/_config.tpl
+ create mode 100644 system/Debug/Toolbar/Views/_database.tpl
+ create mode 100644 system/Debug/Toolbar/Views/_events.tpl
+ create mode 100644 system/Debug/Toolbar/Views/_files.tpl
+ create mode 100644 system/Debug/Toolbar/Views/_history.tpl
+ create mode 100644 system/Debug/Toolbar/Views/_logs.tpl
+ create mode 100644 system/Debug/Toolbar/Views/_routes.tpl
+ create mode 100644 system/Debug/Toolbar/Views/toolbar.css
+ create mode 100644 system/Debug/Toolbar/Views/toolbar.js
+ create mode 100644 system/Debug/Toolbar/Views/toolbar.tpl.php
+ create mode 100644 system/Debug/Toolbar/Views/toolbarloader.js
+ create mode 100644 system/Email/Email.php
+ create mode 100644 system/Encryption/EncrypterInterface.php
+ create mode 100644 system/Encryption/Encryption.php
+ create mode 100644 system/Encryption/Exceptions/EncryptionException.php
+ create mode 100644 system/Encryption/Handlers/BaseHandler.php
+ create mode 100644 system/Encryption/Handlers/OpenSSLHandler.php
+ create mode 100644 system/Encryption/Handlers/SodiumHandler.php
+ create mode 100644 system/Entity.php
+ create mode 100644 system/Entity/Cast/ArrayCast.php
+ create mode 100644 system/Entity/Cast/BaseCast.php
+ create mode 100644 system/Entity/Cast/BooleanCast.php
+ create mode 100644 system/Entity/Cast/CSVCast.php
+ create mode 100644 system/Entity/Cast/CastInterface.php
+ create mode 100644 system/Entity/Cast/DatetimeCast.php
+ create mode 100644 system/Entity/Cast/FloatCast.php
+ create mode 100644 system/Entity/Cast/IntegerCast.php
+ create mode 100644 system/Entity/Cast/JsonCast.php
+ create mode 100644 system/Entity/Cast/ObjectCast.php
+ create mode 100644 system/Entity/Cast/StringCast.php
+ create mode 100644 system/Entity/Cast/TimestampCast.php
+ create mode 100644 system/Entity/Cast/URICast.php
+ create mode 100644 system/Entity/Entity.php
+ create mode 100644 system/Entity/Exceptions/CastException.php
+ create mode 100644 system/Events/Events.php
+ create mode 100644 system/Exceptions/AlertError.php
+ create mode 100644 system/Exceptions/CastException.php
+ create mode 100644 system/Exceptions/ConfigException.php
+ create mode 100644 system/Exceptions/CriticalError.php
+ create mode 100644 system/Exceptions/DebugTraceableTrait.php
+ create mode 100644 system/Exceptions/DownloadException.php
+ create mode 100644 system/Exceptions/EmergencyError.php
+ create mode 100644 system/Exceptions/ExceptionInterface.php
+ create mode 100644 system/Exceptions/FrameworkException.php
+ create mode 100644 system/Exceptions/ModelException.php
+ create mode 100644 system/Exceptions/PageNotFoundException.php
+ create mode 100644 system/Exceptions/TestException.php
+ create mode 100644 system/Files/Exceptions/FileException.php
+ create mode 100644 system/Files/Exceptions/FileNotFoundException.php
+ create mode 100644 system/Files/File.php
+ create mode 100644 system/Files/FileCollection.php
+ create mode 100644 system/Filters/CSRF.php
+ create mode 100644 system/Filters/DebugToolbar.php
+ create mode 100644 system/Filters/Exceptions/FilterException.php
+ create mode 100644 system/Filters/FilterInterface.php
+ create mode 100644 system/Filters/Filters.php
+ create mode 100644 system/Filters/Honeypot.php
+ create mode 100644 system/Filters/InvalidChars.php
+ create mode 100644 system/Filters/SecureHeaders.php
+ create mode 100644 system/Format/Exceptions/FormatException.php
+ create mode 100644 system/Format/Format.php
+ create mode 100644 system/Format/FormatterInterface.php
+ create mode 100644 system/Format/JSONFormatter.php
+ create mode 100644 system/Format/XMLFormatter.php
+ create mode 100644 system/HTTP/CLIRequest.php
+ create mode 100644 system/HTTP/CURLRequest.php
+ create mode 100644 system/HTTP/ContentSecurityPolicy.php
+ create mode 100644 system/HTTP/DownloadResponse.php
+ create mode 100644 system/HTTP/Exceptions/HTTPException.php
+ create mode 100644 system/HTTP/Files/FileCollection.php
+ create mode 100644 system/HTTP/Files/UploadedFile.php
+ create mode 100644 system/HTTP/Files/UploadedFileInterface.php
+ create mode 100644 system/HTTP/Header.php
+ create mode 100644 system/HTTP/IncomingRequest.php
+ create mode 100644 system/HTTP/Message.php
+ create mode 100644 system/HTTP/MessageInterface.php
+ create mode 100644 system/HTTP/MessageTrait.php
+ create mode 100644 system/HTTP/Negotiate.php
+ create mode 100644 system/HTTP/RedirectResponse.php
+ create mode 100644 system/HTTP/Request.php
+ create mode 100644 system/HTTP/RequestInterface.php
+ create mode 100644 system/HTTP/RequestTrait.php
+ create mode 100644 system/HTTP/Response.php
+ create mode 100644 system/HTTP/ResponseInterface.php
+ create mode 100644 system/HTTP/ResponseTrait.php
+ create mode 100644 system/HTTP/URI.php
+ create mode 100644 system/HTTP/UserAgent.php
+ create mode 100644 system/Helpers/array_helper.php
+ create mode 100644 system/Helpers/cookie_helper.php
+ create mode 100644 system/Helpers/date_helper.php
+ create mode 100644 system/Helpers/filesystem_helper.php
+ create mode 100644 system/Helpers/form_helper.php
+ create mode 100644 system/Helpers/html_helper.php
+ create mode 100644 system/Helpers/inflector_helper.php
+ create mode 100644 system/Helpers/number_helper.php
+ create mode 100644 system/Helpers/security_helper.php
+ create mode 100644 system/Helpers/test_helper.php
+ create mode 100644 system/Helpers/text_helper.php
+ create mode 100644 system/Helpers/url_helper.php
+ create mode 100644 system/Helpers/xml_helper.php
+ create mode 100644 system/Honeypot/Exceptions/HoneypotException.php
+ create mode 100644 system/Honeypot/Honeypot.php
+ create mode 100644 system/I18n/Exceptions/I18nException.php
+ create mode 100644 system/I18n/Time.php
+ create mode 100644 system/I18n/TimeDifference.php
+ create mode 100644 system/Images/Exceptions/ImageException.php
+ create mode 100644 system/Images/Handlers/BaseHandler.php
+ create mode 100644 system/Images/Handlers/GDHandler.php
+ create mode 100644 system/Images/Handlers/ImageMagickHandler.php
+ create mode 100644 system/Images/Image.php
+ create mode 100644 system/Images/ImageHandlerInterface.php
+ create mode 100644 system/Language/Language.php
+ create mode 100644 system/Language/en/CLI.php
+ create mode 100644 system/Language/en/Cache.php
+ create mode 100644 system/Language/en/Cast.php
+ create mode 100644 system/Language/en/Cookie.php
+ create mode 100644 system/Language/en/Core.php
+ create mode 100644 system/Language/en/Database.php
+ create mode 100644 system/Language/en/Email.php
+ create mode 100644 system/Language/en/Encryption.php
+ create mode 100644 system/Language/en/Fabricator.php
+ create mode 100644 system/Language/en/Files.php
+ create mode 100644 system/Language/en/Filters.php
+ create mode 100644 system/Language/en/Format.php
+ create mode 100644 system/Language/en/HTTP.php
+ create mode 100644 system/Language/en/Images.php
+ create mode 100644 system/Language/en/Log.php
+ create mode 100644 system/Language/en/Migrations.php
+ create mode 100644 system/Language/en/Number.php
+ create mode 100644 system/Language/en/Pager.php
+ create mode 100644 system/Language/en/Publisher.php
+ create mode 100644 system/Language/en/RESTful.php
+ create mode 100644 system/Language/en/Router.php
+ create mode 100644 system/Language/en/Security.php
+ create mode 100644 system/Language/en/Session.php
+ create mode 100644 system/Language/en/Test.php
+ create mode 100644 system/Language/en/Time.php
+ create mode 100644 system/Language/en/Validation.php
+ create mode 100644 system/Language/en/View.php
+ create mode 100644 system/Log/Exceptions/LogException.php
+ create mode 100644 system/Log/Handlers/BaseHandler.php
+ create mode 100644 system/Log/Handlers/ChromeLoggerHandler.php
+ create mode 100644 system/Log/Handlers/ErrorlogHandler.php
+ create mode 100644 system/Log/Handlers/FileHandler.php
+ create mode 100644 system/Log/Handlers/HandlerInterface.php
+ create mode 100644 system/Log/Logger.php
+ create mode 100644 system/Model.php
+ create mode 100644 system/Modules/Modules.php
+ create mode 100644 system/Pager/Exceptions/PagerException.php
+ create mode 100644 system/Pager/Pager.php
+ create mode 100644 system/Pager/PagerInterface.php
+ create mode 100644 system/Pager/PagerRenderer.php
+ create mode 100644 system/Pager/Views/default_full.php
+ create mode 100644 system/Pager/Views/default_head.php
+ create mode 100644 system/Pager/Views/default_simple.php
+ create mode 100644 system/Publisher/Exceptions/PublisherException.php
+ create mode 100644 system/Publisher/Publisher.php
+ create mode 100644 system/RESTful/BaseResource.php
+ create mode 100644 system/RESTful/ResourceController.php
+ create mode 100644 system/RESTful/ResourcePresenter.php
+ create mode 100644 system/Router/AutoRouter.php
+ create mode 100644 system/Router/AutoRouterImproved.php
+ create mode 100644 system/Router/AutoRouterInterface.php
+ create mode 100644 system/Router/Exceptions/RedirectException.php
+ create mode 100644 system/Router/Exceptions/RouterException.php
+ create mode 100644 system/Router/RouteCollection.php
+ create mode 100644 system/Router/RouteCollectionInterface.php
+ create mode 100644 system/Router/Router.php
+ create mode 100644 system/Router/RouterInterface.php
+ create mode 100644 system/Security/Exceptions/SecurityException.php
+ create mode 100644 system/Security/Security.php
+ create mode 100644 system/Security/SecurityInterface.php
+ create mode 100644 system/Session/Exceptions/SessionException.php
+ create mode 100644 system/Session/Handlers/ArrayHandler.php
+ create mode 100644 system/Session/Handlers/BaseHandler.php
+ create mode 100644 system/Session/Handlers/Database/MySQLiHandler.php
+ create mode 100644 system/Session/Handlers/Database/PostgreHandler.php
+ create mode 100644 system/Session/Handlers/DatabaseHandler.php
+ create mode 100644 system/Session/Handlers/FileHandler.php
+ create mode 100644 system/Session/Handlers/MemcachedHandler.php
+ create mode 100644 system/Session/Handlers/RedisHandler.php
+ create mode 100644 system/Session/Session.php
+ create mode 100644 system/Session/SessionInterface.php
+ create mode 100644 system/Test/CIDatabaseTestCase.php
+ create mode 100644 system/Test/CIUnitTestCase.php
+ create mode 100644 system/Test/ConfigFromArrayTrait.php
+ create mode 100644 system/Test/Constraints/SeeInDatabase.php
+ create mode 100644 system/Test/ControllerResponse.php
+ create mode 100644 system/Test/ControllerTestTrait.php
+ create mode 100644 system/Test/ControllerTester.php
+ create mode 100644 system/Test/DOMParser.php
+ create mode 100644 system/Test/DatabaseTestTrait.php
+ create mode 100644 system/Test/Fabricator.php
+ create mode 100644 system/Test/FeatureResponse.php
+ create mode 100644 system/Test/FeatureTestCase.php
+ create mode 100644 system/Test/FeatureTestTrait.php
+ create mode 100644 system/Test/FilterTestTrait.php
+ create mode 100644 system/Test/Filters/CITestStreamFilter.php
+ create mode 100644 system/Test/Interfaces/FabricatorModel.php
+ create mode 100644 system/Test/Mock/MockAppConfig.php
+ create mode 100644 system/Test/Mock/MockAutoload.php
+ create mode 100644 system/Test/Mock/MockBuilder.php
+ create mode 100644 system/Test/Mock/MockCLIConfig.php
+ create mode 100644 system/Test/Mock/MockCURLRequest.php
+ create mode 100644 system/Test/Mock/MockCache.php
+ create mode 100644 system/Test/Mock/MockCodeIgniter.php
+ create mode 100644 system/Test/Mock/MockCommon.php
+ create mode 100644 system/Test/Mock/MockConnection.php
+ create mode 100644 system/Test/Mock/MockEmail.php
+ create mode 100644 system/Test/Mock/MockEvents.php
+ create mode 100644 system/Test/Mock/MockFileLogger.php
+ create mode 100644 system/Test/Mock/MockIncomingRequest.php
+ create mode 100644 system/Test/Mock/MockLanguage.php
+ create mode 100644 system/Test/Mock/MockLogger.php
+ create mode 100644 system/Test/Mock/MockQuery.php
+ create mode 100644 system/Test/Mock/MockResourceController.php
+ create mode 100644 system/Test/Mock/MockResourcePresenter.php
+ create mode 100644 system/Test/Mock/MockResponse.php
+ create mode 100644 system/Test/Mock/MockResult.php
+ create mode 100644 system/Test/Mock/MockSecurity.php
+ create mode 100644 system/Test/Mock/MockSecurityConfig.php
+ create mode 100644 system/Test/Mock/MockServices.php
+ create mode 100644 system/Test/Mock/MockSession.php
+ create mode 100644 system/Test/Mock/MockTable.php
+ create mode 100644 system/Test/ReflectionHelper.php
+ create mode 100644 system/Test/TestLogger.php
+ create mode 100644 system/Test/TestResponse.php
+ create mode 100644 system/Test/bootstrap.php
+ create mode 100644 system/ThirdParty/Escaper/Escaper.php
+ create mode 100644 system/ThirdParty/Escaper/Exception/ExceptionInterface.php
+ create mode 100644 system/ThirdParty/Escaper/Exception/InvalidArgumentException.php
+ create mode 100644 system/ThirdParty/Escaper/Exception/RuntimeException.php
+ create mode 100644 system/ThirdParty/Escaper/LICENSE.md
+ create mode 100644 system/ThirdParty/Kint/CallFinder.php
+ create mode 100644 system/ThirdParty/Kint/Kint.php
+ create mode 100644 system/ThirdParty/Kint/LICENSE
+ create mode 100644 system/ThirdParty/Kint/Parser/ArrayLimitPlugin.php
+ create mode 100644 system/ThirdParty/Kint/Parser/ArrayObjectPlugin.php
+ create mode 100644 system/ThirdParty/Kint/Parser/Base64Plugin.php
+ create mode 100644 system/ThirdParty/Kint/Parser/BinaryPlugin.php
+ create mode 100644 system/ThirdParty/Kint/Parser/BlacklistPlugin.php
+ create mode 100644 system/ThirdParty/Kint/Parser/ClassMethodsPlugin.php
+ create mode 100644 system/ThirdParty/Kint/Parser/ClassStaticsPlugin.php
+ create mode 100644 system/ThirdParty/Kint/Parser/ClosurePlugin.php
+ create mode 100644 system/ThirdParty/Kint/Parser/ColorPlugin.php
+ create mode 100644 system/ThirdParty/Kint/Parser/DOMDocumentPlugin.php
+ create mode 100644 system/ThirdParty/Kint/Parser/DateTimePlugin.php
+ create mode 100644 system/ThirdParty/Kint/Parser/FsPathPlugin.php
+ create mode 100644 system/ThirdParty/Kint/Parser/IteratorPlugin.php
+ create mode 100644 system/ThirdParty/Kint/Parser/JsonPlugin.php
+ create mode 100644 system/ThirdParty/Kint/Parser/MicrotimePlugin.php
+ create mode 100644 system/ThirdParty/Kint/Parser/MysqliPlugin.php
+ create mode 100644 system/ThirdParty/Kint/Parser/Parser.php
+ create mode 100644 system/ThirdParty/Kint/Parser/Plugin.php
+ create mode 100644 system/ThirdParty/Kint/Parser/ProxyPlugin.php
+ create mode 100644 system/ThirdParty/Kint/Parser/SerializePlugin.php
+ create mode 100644 system/ThirdParty/Kint/Parser/SimpleXMLElementPlugin.php
+ create mode 100644 system/ThirdParty/Kint/Parser/SplFileInfoPlugin.php
+ create mode 100644 system/ThirdParty/Kint/Parser/SplObjectStoragePlugin.php
+ create mode 100644 system/ThirdParty/Kint/Parser/StreamPlugin.php
+ create mode 100644 system/ThirdParty/Kint/Parser/TablePlugin.php
+ create mode 100644 system/ThirdParty/Kint/Parser/ThrowablePlugin.php
+ create mode 100644 system/ThirdParty/Kint/Parser/TimestampPlugin.php
+ create mode 100644 system/ThirdParty/Kint/Parser/ToStringPlugin.php
+ create mode 100644 system/ThirdParty/Kint/Parser/TracePlugin.php
+ create mode 100644 system/ThirdParty/Kint/Parser/XmlPlugin.php
+ create mode 100644 system/ThirdParty/Kint/Renderer/CliRenderer.php
+ create mode 100644 system/ThirdParty/Kint/Renderer/PlainRenderer.php
+ create mode 100644 system/ThirdParty/Kint/Renderer/Renderer.php
+ create mode 100644 system/ThirdParty/Kint/Renderer/Rich/ArrayLimitPlugin.php
+ create mode 100644 system/ThirdParty/Kint/Renderer/Rich/BinaryPlugin.php
+ create mode 100644 system/ThirdParty/Kint/Renderer/Rich/BlacklistPlugin.php
+ create mode 100644 system/ThirdParty/Kint/Renderer/Rich/CallablePlugin.php
+ create mode 100644 system/ThirdParty/Kint/Renderer/Rich/ClosurePlugin.php
+ create mode 100644 system/ThirdParty/Kint/Renderer/Rich/ColorPlugin.php
+ create mode 100644 system/ThirdParty/Kint/Renderer/Rich/DepthLimitPlugin.php
+ create mode 100644 system/ThirdParty/Kint/Renderer/Rich/DocstringPlugin.php
+ create mode 100644 system/ThirdParty/Kint/Renderer/Rich/MicrotimePlugin.php
+ create mode 100644 system/ThirdParty/Kint/Renderer/Rich/Plugin.php
+ create mode 100644 system/ThirdParty/Kint/Renderer/Rich/PluginInterface.php
+ create mode 100644 system/ThirdParty/Kint/Renderer/Rich/RecursionPlugin.php
+ create mode 100644 system/ThirdParty/Kint/Renderer/Rich/SimpleXMLElementPlugin.php
+ create mode 100644 system/ThirdParty/Kint/Renderer/Rich/SourcePlugin.php
+ create mode 100644 system/ThirdParty/Kint/Renderer/Rich/TabPluginInterface.php
+ create mode 100644 system/ThirdParty/Kint/Renderer/Rich/TablePlugin.php
+ create mode 100644 system/ThirdParty/Kint/Renderer/Rich/TimestampPlugin.php
+ create mode 100644 system/ThirdParty/Kint/Renderer/Rich/TraceFramePlugin.php
+ create mode 100644 system/ThirdParty/Kint/Renderer/Rich/ValuePluginInterface.php
+ create mode 100644 system/ThirdParty/Kint/Renderer/RichRenderer.php
+ create mode 100644 system/ThirdParty/Kint/Renderer/Text/ArrayLimitPlugin.php
+ create mode 100644 system/ThirdParty/Kint/Renderer/Text/BlacklistPlugin.php
+ create mode 100644 system/ThirdParty/Kint/Renderer/Text/DepthLimitPlugin.php
+ create mode 100644 system/ThirdParty/Kint/Renderer/Text/MicrotimePlugin.php
+ create mode 100644 system/ThirdParty/Kint/Renderer/Text/Plugin.php
+ create mode 100644 system/ThirdParty/Kint/Renderer/Text/RecursionPlugin.php
+ create mode 100644 system/ThirdParty/Kint/Renderer/Text/TracePlugin.php
+ create mode 100644 system/ThirdParty/Kint/Renderer/TextRenderer.php
+ create mode 100644 system/ThirdParty/Kint/Utils.php
+ create mode 100644 system/ThirdParty/Kint/Zval/BlobValue.php
+ create mode 100644 system/ThirdParty/Kint/Zval/ClosureValue.php
+ create mode 100644 system/ThirdParty/Kint/Zval/DateTimeValue.php
+ create mode 100644 system/ThirdParty/Kint/Zval/InstanceValue.php
+ create mode 100644 system/ThirdParty/Kint/Zval/MethodValue.php
+ create mode 100644 system/ThirdParty/Kint/Zval/ParameterValue.php
+ create mode 100644 system/ThirdParty/Kint/Zval/Representation/ColorRepresentation.php
+ create mode 100644 system/ThirdParty/Kint/Zval/Representation/DocstringRepresentation.php
+ create mode 100644 system/ThirdParty/Kint/Zval/Representation/MicrotimeRepresentation.php
+ create mode 100644 system/ThirdParty/Kint/Zval/Representation/Representation.php
+ create mode 100644 system/ThirdParty/Kint/Zval/Representation/SourceRepresentation.php
+ create mode 100644 system/ThirdParty/Kint/Zval/Representation/SplFileInfoRepresentation.php
+ create mode 100644 system/ThirdParty/Kint/Zval/ResourceValue.php
+ create mode 100644 system/ThirdParty/Kint/Zval/SimpleXMLElementValue.php
+ create mode 100644 system/ThirdParty/Kint/Zval/StreamValue.php
+ create mode 100644 system/ThirdParty/Kint/Zval/ThrowableValue.php
+ create mode 100644 system/ThirdParty/Kint/Zval/TraceFrameValue.php
+ create mode 100644 system/ThirdParty/Kint/Zval/TraceValue.php
+ create mode 100644 system/ThirdParty/Kint/Zval/Value.php
+ create mode 100644 system/ThirdParty/Kint/init.php
+ create mode 100644 system/ThirdParty/Kint/init_helpers.php
+ create mode 100644 system/ThirdParty/Kint/resources/compiled/aante-light.css
+ create mode 100644 system/ThirdParty/Kint/resources/compiled/microtime.js
+ create mode 100644 system/ThirdParty/Kint/resources/compiled/original.css
+ create mode 100644 system/ThirdParty/Kint/resources/compiled/plain.css
+ create mode 100644 system/ThirdParty/Kint/resources/compiled/plain.js
+ create mode 100644 system/ThirdParty/Kint/resources/compiled/rich.js
+ create mode 100644 system/ThirdParty/Kint/resources/compiled/shared.js
+ create mode 100644 system/ThirdParty/Kint/resources/compiled/solarized-dark.css
+ create mode 100644 system/ThirdParty/Kint/resources/compiled/solarized.css
+ create mode 100644 system/ThirdParty/PSR/Log/AbstractLogger.php
+ create mode 100644 system/ThirdParty/PSR/Log/InvalidArgumentException.php
+ create mode 100644 system/ThirdParty/PSR/Log/LICENSE
+ create mode 100644 system/ThirdParty/PSR/Log/LogLevel.php
+ create mode 100644 system/ThirdParty/PSR/Log/LoggerAwareInterface.php
+ create mode 100644 system/ThirdParty/PSR/Log/LoggerAwareTrait.php
+ create mode 100644 system/ThirdParty/PSR/Log/LoggerInterface.php
+ create mode 100644 system/ThirdParty/PSR/Log/LoggerTrait.php
+ create mode 100644 system/ThirdParty/PSR/Log/NullLogger.php
+ create mode 100644 system/Throttle/Throttler.php
+ create mode 100644 system/Throttle/ThrottlerInterface.php
+ create mode 100644 system/Typography/Typography.php
+ create mode 100644 system/Validation/CreditCardRules.php
+ create mode 100644 system/Validation/Exceptions/ValidationException.php
+ create mode 100644 system/Validation/FileRules.php
+ create mode 100644 system/Validation/FormatRules.php
+ create mode 100644 system/Validation/Rules.php
+ create mode 100644 system/Validation/StrictRules/CreditCardRules.php
+ create mode 100644 system/Validation/StrictRules/FileRules.php
+ create mode 100644 system/Validation/StrictRules/FormatRules.php
+ create mode 100644 system/Validation/StrictRules/Rules.php
+ create mode 100644 system/Validation/Validation.php
+ create mode 100644 system/Validation/ValidationInterface.php
+ create mode 100644 system/Validation/Views/list.php
+ create mode 100644 system/Validation/Views/single.php
+ create mode 100644 system/View/Cell.php
+ create mode 100644 system/View/Exceptions/ViewException.php
+ create mode 100644 system/View/Filters.php
+ create mode 100644 system/View/Parser.php
+ create mode 100644 system/View/Plugins.php
+ create mode 100644 system/View/RendererInterface.php
+ create mode 100644 system/View/Table.php
+ create mode 100644 system/View/View.php
+ create mode 100644 system/View/ViewDecoratorInterface.php
+ create mode 100644 system/View/ViewDecoratorTrait.php
+ create mode 100644 system/bootstrap.php
+ create mode 100644 system/index.html
+ create mode 100644 tests/.htaccess
+ create mode 100644 tests/README.md
+ create mode 100644 tests/_support/Autoloader/FatalLocator.php
+ create mode 100644 tests/_support/Autoloader/UnnamespacedClass.php
+ create mode 100644 tests/_support/Autoloader/functions.php
+ create mode 100644 tests/_support/Cache/RestrictiveHandler.php
+ create mode 100644 tests/_support/Commands/AbstractInfo.php
+ create mode 100644 tests/_support/Commands/AppInfo.php
+ create mode 100644 tests/_support/Commands/Foobar.php
+ create mode 100644 tests/_support/Commands/InvalidCommand.php
+ create mode 100644 tests/_support/Commands/LanguageCommand.php
+ create mode 100644 tests/_support/Commands/ParamsReveal.php
+ create mode 100644 tests/_support/Commands/Unsuffixable.php
+ create mode 100644 tests/_support/Config/BadRegistrar.php
+ create mode 100644 tests/_support/Config/Filters.php
+ create mode 100644 tests/_support/Config/Registrar.php
+ create mode 100644 tests/_support/Config/Routes.php
+ create mode 100644 tests/_support/Config/Services.php
+ create mode 100644 tests/_support/Config/TestRegistrar.php
+ create mode 100644 tests/_support/Controllers/Hello.php
+ create mode 100644 tests/_support/Controllers/Newautorouting.php
+ create mode 100644 tests/_support/Controllers/Popcorn.php
+ create mode 100644 tests/_support/Controllers/Remap.php
+ create mode 100644 tests/_support/Database/Migrations/20160428212500_Create_test_tables.php
+ create mode 100644 tests/_support/Database/Seeds/AnotherSeeder.php
+ create mode 100644 tests/_support/Database/Seeds/CITestSeeder.php
+ create mode 100644 tests/_support/Entity/Cast/CastBase64.php
+ create mode 100644 tests/_support/Entity/Cast/CastPassParameters.php
+ create mode 100644 tests/_support/Entity/Cast/NotExtendsBaseCast.php
+ create mode 100644 tests/_support/Entity/User.php
+ create mode 100644 tests/_support/Files/able/apple.php
+ create mode 100644 tests/_support/Files/able/fig_3.php
+ create mode 100644 tests/_support/Files/able/prune_ripe.php
+ create mode 100644 tests/_support/Files/baker/banana.php
+ create mode 100644 tests/_support/Filters/Customfilter.php
+ create mode 100644 tests/_support/HTTP/Files/CookiesHolder.txt
+ create mode 100644 tests/_support/HTTP/Files/tmp/fileA.txt
+ create mode 100644 tests/_support/HTTP/Files/tmp/fileB.txt
+ create mode 100644 tests/_support/HTTP/Files/tmp/fileC.csv
+ create mode 100644 tests/_support/HTTP/Files/tmp/fileD.zip
+ create mode 100644 tests/_support/HTTP/Files/tmp/fileE.zip.rar
+ create mode 100644 tests/_support/Helpers/baguette_helper.php
+ create mode 100644 tests/_support/Images/EXIFsamples/landscape_0.jpg
+ create mode 100644 tests/_support/Images/EXIFsamples/landscape_1.jpg
+ create mode 100644 tests/_support/Images/EXIFsamples/landscape_2.jpg
+ create mode 100644 tests/_support/Images/EXIFsamples/landscape_3.jpg
+ create mode 100644 tests/_support/Images/EXIFsamples/landscape_4.jpg
+ create mode 100644 tests/_support/Images/EXIFsamples/landscape_5.jpg
+ create mode 100644 tests/_support/Images/EXIFsamples/landscape_6.jpg
+ create mode 100644 tests/_support/Images/EXIFsamples/landscape_7.jpg
+ create mode 100644 tests/_support/Images/EXIFsamples/landscape_8.jpg
+ create mode 100644 tests/_support/Images/EXIFsamples/portrait_0.jpg
+ create mode 100644 tests/_support/Images/EXIFsamples/portrait_1.jpg
+ create mode 100644 tests/_support/Images/EXIFsamples/portrait_2.jpg
+ create mode 100644 tests/_support/Images/EXIFsamples/portrait_3.jpg
+ create mode 100644 tests/_support/Images/EXIFsamples/portrait_4.jpg
+ create mode 100644 tests/_support/Images/EXIFsamples/portrait_5.jpg
+ create mode 100644 tests/_support/Images/EXIFsamples/portrait_6.jpg
+ create mode 100644 tests/_support/Images/EXIFsamples/portrait_7.jpg
+ create mode 100644 tests/_support/Images/EXIFsamples/portrait_8.jpg
+ create mode 100644 tests/_support/Images/Steveston_dusk.JPG
+ create mode 100644 tests/_support/Images/ci-logo.gif
+ create mode 100644 tests/_support/Images/ci-logo.jpeg
+ create mode 100644 tests/_support/Images/ci-logo.png
+ create mode 100644 tests/_support/Images/ci-logo.webp
+ create mode 100644 tests/_support/Language/SecondMockLanguage.php
+ create mode 100644 tests/_support/Language/ab-CD/Allin.php
+ create mode 100644 tests/_support/Language/ab/Allin.php
+ create mode 100644 tests/_support/Language/en-ZZ/More.php
+ create mode 100644 tests/_support/Language/en/Allin.php
+ create mode 100644 tests/_support/Language/en/Core.php
+ create mode 100644 tests/_support/Language/en/Foo.php
+ create mode 100644 tests/_support/Language/en/Language.php
+ create mode 100644 tests/_support/Language/en/More.php
+ create mode 100644 tests/_support/Language/en/Nested.php
+ create mode 100644 tests/_support/Language/ru/Language.php
+ create mode 100644 tests/_support/Log/Handlers/TestHandler.php
+ create mode 100644 tests/_support/MigrationTestMigrations/Database/Migrations/2018-01-24-102300_Another_migration.py
+ create mode 100644 tests/_support/MigrationTestMigrations/Database/Migrations/2018-01-24-102301_Some_migration.php
+ create mode 100644 tests/_support/MigrationTestMigrations/Database/Migrations/2018-01-24-102302_Another_migration.php
+ create mode 100644 tests/_support/Models/EntityModel.php
+ create mode 100644 tests/_support/Models/EventModel.php
+ create mode 100644 tests/_support/Models/FabricatorModel.php
+ create mode 100644 tests/_support/Models/GetCompiledModelTest.php
+ create mode 100644 tests/_support/Models/JobModel.php
+ create mode 100644 tests/_support/Models/SecondaryModel.php
+ create mode 100644 tests/_support/Models/SimpleEntity.php
+ create mode 100644 tests/_support/Models/StringifyPkeyModel.php
+ create mode 100644 tests/_support/Models/UserModel.php
+ create mode 100644 tests/_support/Models/UserObjModel.php
+ create mode 100644 tests/_support/Models/ValidErrorsModel.php
+ create mode 100644 tests/_support/Models/ValidModel.php
+ create mode 100644 tests/_support/Models/WithoutAutoIncrementModel.php
+ create mode 100644 tests/_support/Publishers/TestPublisher.php
+ create mode 100644 tests/_support/RESTful/Worker.php
+ create mode 100644 tests/_support/RESTful/Worker2.php
+ create mode 100644 tests/_support/SomeEntity.php
+ create mode 100644 tests/_support/Validation/TestRules.php
+ create mode 100644 tests/_support/Validation/uploads/phpUxc0ty
+ create mode 100644 tests/_support/View/BadDecorator.php
+ create mode 100644 tests/_support/View/SampleClass.php
+ create mode 100644 tests/_support/View/SampleClassWithInitController.php
+ create mode 100644 tests/_support/View/Views/simple.php
+ create mode 100644 tests/_support/View/Views/simpler.php
+ create mode 100644 tests/_support/View/Views/simples.php
+ create mode 100644 tests/_support/View/WorldDecorator.php
+ create mode 100644 tests/_support/Widgets/NopeWidget.php
+ create mode 100644 tests/_support/Widgets/OtherWidget.php
+ create mode 100644 tests/_support/Widgets/SomeWidget.php
+ create mode 100644 writable/.htaccess
+ create mode 100644 writable/cache/index.html
+ create mode 100644 writable/debugbar/.gitkeep
+ create mode 100644 writable/logs/index.html
+ create mode 100644 writable/session/index.html
+ create mode 100644 writable/uploads/index.html
+
+C:\wamp64\www\api>git push -u origin master
+info: please complete authentication in your browser...
+Enumerating objects: 857, done.
+Counting objects: 100% (857/857), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (807/807), done.
+Writing objects: 100% (857/857), 1.26 MiB | 2.52 MiB/s, done.
+Total 857 (delta 214), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (214/214), done.
+To https://github.com/paulocoppe10/apicodeigniter.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+C:\wamp64\www\api>php spark migrate:create Produtos
+
+CodeIgniter v4.2.1 Command Line Tool - Server Time: 2022-07-27 12:07:59 UTC-05:00
+
+File created: APPPATH\Database\Migrations\2022-07-27-170800_Produtos.php
+
+
+C:\wamp64\www\api>php spark migrate
+
+CodeIgniter v4.2.1 Command Line Tool - Server Time: 2022-07-27 12:24:49 UTC-05:00
+
+Running all new migrations...
+        Running: (App) 2022-07-27-170800_App\Database\Migrations\Produtos
+Migrations complete.
+
+C:\wamp64\www\api>php spark db:seed Produto
+
+CodeIgniter v4.2.1 Command Line Tool - Server Time: 2022-07-27 12:47:28 UTC-05:00
+
+
+[InvalidArgumentException]
+
+The specified seeder is not a valid file: C:\wamp64\www\api\app\Database/Seeds/Produto.php
+
+at SYSTEMPATH\Database\Seeder.php:130
+
+
+C:\wamp64\www\api>php spark db:seed Produtos
+
+CodeIgniter v4.2.1 Command Line Tool - Server Time: 2022-07-27 12:47:35 UTC-05:00
+
+
+[Error]
+
+Class 'App\Database\Seeds\Produtos' not found
+
+at SYSTEMPATH\Database\Seeder.php:144
+
+
+C:\wamp64\www\api>php spark db:seed Produtos
+
+CodeIgniter v4.2.1 Command Line Tool - Server Time: 2022-07-27 12:51:58 UTC-05:00
+
+Seeded: App\Database\Seeds\Produtos
+
+C:\wamp64\www\api>
+
+C:\wamp64\www\api>git add .
+warning: LF will be replaced by CRLF in app/Config/Database.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Database/Migrations/2022-07-27-170800_Produtos.php.
+The file will have its original line endings in your working directory
+
+C:\wamp64\www\api>git commit -m "criando seed e migrate"
+[master b6f2feb] criando seed e migrate
+ 3 files changed, 57 insertions(+), 2 deletions(-)
+ create mode 100644 app/Database/Migrations/2022-07-27-170800_Produtos.php
+ create mode 100644 app/Database/Seeds/Produtos.php
+
+C:\wamp64\www\api>git push
+Enumerating objects: 17, done.
+Counting objects: 100% (16/16), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (10/10), 1.24 KiB | 637.00 KiB/s, done.
+Total 10 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To https://github.com/paulocoppe10/apicodeigniter.git
+   a6e3bb2..b6f2feb  master -> master
+
+C:\wamp64\www\api>
