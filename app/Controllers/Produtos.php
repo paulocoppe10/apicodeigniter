@@ -1,7 +1,5 @@
 <?php
-
 namespace App\Controllers;
-
 use CodeIgniter\RESTful\ResourceController;
 
 class Produtos extends ResourceController
@@ -24,4 +22,16 @@ class Produtos extends ResourceController
         return $this->response->setJson($data);
     }
 
-}
+    public function produtos($limit)
+    {
+        $data = $this->produtosModel->findAll($limit);
+        return $this->response->setJson($data);
+    }
+
+    public function gravarProduto(){
+       $this->produtosModel->save([
+            'descricao' => $this->request->getPost('descricao'),
+            'valor' => $this->request->getPost('valor'),
+        ]);
+    }
+}        
