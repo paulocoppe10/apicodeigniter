@@ -12,7 +12,7 @@ class Produtos extends Seeder
         $valor = [10000,3000,20000];
         for($x =0; $x <3; $x++){
             $data = [
-                'descricao' => $desc[$x],
+                'nome' => $desc[$x],
                 'valor'    => $valor[$x],
             ];
 

@@ -13,7 +13,7 @@ class Produtos extends Migration
                 'type'=>'INT',
                 'auto_increment'=>true
             ],
-            'descricao'=>[
+            'nome'=>[
                 'type'=>'varchar',
                 'constraint'=>100
             ],
